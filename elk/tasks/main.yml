@@ -1,2 +1,6 @@
 ---
 # tasks file for /home/arielw/ansible/elk
+
+# Install mysql and it dependecies
+- name: import java8.yaml task
+  import_tasks: java8.yaml
